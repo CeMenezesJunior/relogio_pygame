@@ -2,7 +2,7 @@ import pygame,sys
 from backend import *
 
 pygame.init()
-size = largura,altura = 800,600
+size = largura,altura = 400,200
 tela = pygame.display.set_mode(size)
 fonte = pygame.font.SysFont("Areal",52, True)
 R = Relogio()
